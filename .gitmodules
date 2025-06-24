@@ -1,0 +1,3 @@
+[submodule "themes/re137"]
+	path = themes/re137
+	url = git@github.com:tinikov/re137

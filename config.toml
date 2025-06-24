@@ -1,0 +1,53 @@
+# The URL the site will be built for
+base_url = "https://voice.ShanTou.University"
+
+title = "ST.U Voice 學生之音"
+description = "为学生发声！"
+# default_language = "zh-cn"
+compile_sass = true
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
+author = "ST.U Voice"
+theme = "re137"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# To enable categories page
+taxonomies = [{ name = "categories" }]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+# SEO settings
+seo = true
+# google_search_console = " "
+
+
+# Only user name is needed
+github = "ShanTouUniversity/voice"
+show_github_icon = true
+
+# Show establish date in the footer
+establishdate = "2025"
+
+# license
+license = true
+# license_type = "CC BY-NC 4.0"
+license_type = "CC BY-NC-ND 4.0"
+# license_canonical_url = "https://creativecommons.org/licenses/by-nc/4.0/"
+license_canonical_url = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+# # Show "Zola &laquo; re137" in the footer
+# show_zola_theme = true
+
+# You can add your own items to list in the site navigator
+re137_menu_links = [
+	{ url = "$BASE_URL", name = "Home 主页" },
+	{ url = "$BASE_URL/categories", name = "Categories 分类" }, # If enabled "taxonomies"
+	{ url = "$BASE_URL/about", name = "About 关于" },
+]
