@@ -7,3 +7,4 @@ authors = ["voice@ShanTou.University"]
 categories = ["文档"]
 +++
 
+这是 [ST.U](https://www.shantou.university) 的一部分。致力于为学生发声！
