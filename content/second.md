@@ -225,3 +225,19 @@ categories = ["发声"]
 <span style="color:red;">目前为止，快两个月了，汕头大学医学院没有公开公正的第三方调查，没有调查结果及官方公告。而是让涉事研究生顺利毕业，相关部门及地区相关单位对投诉视若无睹，没有查封，还在拖延时间，在帮忙装修。</span>
 
 <span style="color:red;">本人无自杀倾向；<span style="text-decoration: underline;">如有意外，必为他人所为。</span></span>
+
+> ---
+
+ <div style="text-align: center;">
+  <div style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="/second/original_post.png" alt="原文二维码" style="width: 180px; height: 180px; border: 1px solid #ddd; padding: 5px; box-sizing: border-box; display: block; margin: 0 auto;">
+    <p style="font-size: 14px; color: #555; margin-top: 8px;">扫码查看公众号推文</p>
+  </div>
+  <div style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="/second/article.png" alt="本文二维码" style="width: 180px; height: 180px; border: 1px solid #ddd; padding: 5px; box-sizing: border-box; display: block; margin: 0 auto;">
+    <p style="font-size: 14px; color: #555; margin-top: 8px;">扫码手机阅读本文</p>
+  </div>
+</div>
+
+> ---
+
