@@ -1,7 +1,7 @@
 +++
 title = "ST.U Voice 说明"
 date = 2025-01-01T00:00:00+00:00
-description = "一个为被压迫的学生建立的发声广场，记录不应被沉默的声音。"
+description = "一个为学生建立的发声广场，记录不应被沉默的声音。"
 authors = ["voice@ShanTou.University"]
 [taxonomies]
 categories = ["文档"]
