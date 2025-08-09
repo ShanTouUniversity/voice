@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
             slideDiv.className = 'slide slide-full-image';
 
             const img = document.createElement('img');
-            img.dataset.src = `${basePath}image_${i}.png`;
+            img.dataset.src = `${basePath}image_${i}.webp`;
             img.className = 'lazy-loadable';
             img.loading = 'lazy';
             img.decoding = 'async';
