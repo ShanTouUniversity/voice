@@ -22,7 +22,7 @@ categories = ["发声"]
   /* 幻灯片容器 */
 }
 .slide {
-  position: relative; /* 修改：为页码提供定位上下文 */
+  position: relative; /* 为页码提供定位上下文 */
   border: 1px solid #ccc;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   background-color: #fff;
@@ -64,23 +64,31 @@ categories = ["发声"]
     padding: 0;
     min-height: auto;
     overflow: hidden;
+    background-color: #fff;
 }
 
 .slide-full-image img {
     width: 100%;
     display: block;
+    opacity: 0; /* 初始状态为透明 */
+    transition: opacity 0.4s ease-in-out; /* 添加淡入过渡效果 */
 }
 
-/* 新增：页码样式 */
+/* 用于控制加载完成后的状态 */
+.slide-full-image img.loaded {
+    opacity: 1; /* 加载完成后，完全显示 */
+}
+
+/* 页码样式 */
 .slide-page-number {
     position: absolute;
-    bottom: 5px;
-    right: 8px;
+    bottom: 15px;
+    right: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 5px 12px;
     border-radius: 12px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
     z-index: 10;
     pointer-events: none;
@@ -124,31 +132,39 @@ document.addEventListener('DOMContentLoaded', function() {
             slideDiv.className = 'slide slide-full-image';
 
             const img = document.createElement('img');
-            img.dataset.src = `${basePath}image_${i}.webp`;
+            // 使用 .webp 格式以减小文件大小
+            img.dataset.src = `${basePath}image_${i}.webp`; 
             img.className = 'lazy-loadable';
-            img.loading = 'lazy';
+            img.loading = 'lazy'; // 保留原生懒加载作为降级
             img.decoding = 'async';
 
-            // 创建页码元素
             const pageNumber = document.createElement('div');
             pageNumber.className = 'slide-page-number';
             pageNumber.textContent = `${i} / ${numberOfSlides}`;
 
             slideDiv.appendChild(img);
-            slideDiv.appendChild(pageNumber); // 将页码添加到幻灯片中
+            slideDiv.appendChild(pageNumber);
             slideContainer.appendChild(slideDiv);
         }
     }
     
-    // --- 2. 使用 Intersection Observer 实现精确懒加载 ---
+    // --- 2. 使用 Intersection Observer 实现精确懒加载和淡入效果 ---
     const lazyImages = document.querySelectorAll('.lazy-loadable');
     if ('IntersectionObserver' in window) {
         const imageObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const image = entry.target;
+                    
+                    // 图片加载完成后再执行回调，以实现淡入效果
+                    image.onload = () => {
+                        image.classList.add('loaded');
+                    };
+                    
+                    // 开始加载图片
                     image.src = image.dataset.src;
-                    image.classList.remove('lazy-loadable');
+                    
+                    // 停止观察该图片
                     observer.unobserve(image);
                 }
             });
@@ -157,12 +173,14 @@ document.addEventListener('DOMContentLoaded', function() {
             imageObserver.observe(image);
         });
     } else {
+        // 降级方案: 如果浏览器不支持，则直接加载所有图片
         lazyImages.forEach(image => {
             image.src = image.dataset.src;
+            image.classList.add('loaded'); // 直接显示
         });
     }
 
-    // --- 3. 全屏按钮功能 ---
+    // --- 3. 全屏按钮功能 (保持不变) ---
     const btn = document.getElementById('fullscreen-btn');
     if (!btn) return;
 
