@@ -79,6 +79,21 @@ categories = ["发声"]
     opacity: 1; /* 加载完成后，完全显示 */
 }
 
+/* 加载状态 */
+.slide-full-image::before {
+    content: '加载中...';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #888;
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.slide-full-image.is-loaded::before {
+    display: none;
+}
+
 /* 页码样式 */
 .slide-page-number {
     position: absolute;
@@ -159,6 +174,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     // 图片加载完成后再执行回调，以实现淡入效果
                     image.onload = () => {
                         image.classList.add('loaded');
+                        if (image.parentElement) {
+                            image.parentElement.classList.add('is-loaded');
+                        }
                     };
                     
                     // 开始加载图片
@@ -177,6 +195,9 @@ document.addEventListener('DOMContentLoaded', function() {
         lazyImages.forEach(image => {
             image.src = image.dataset.src;
             image.classList.add('loaded'); // 直接显示
+            if (image.parentElement) {
+                image.parentElement.classList.add('is-loaded');
+            }
         });
     }
 
