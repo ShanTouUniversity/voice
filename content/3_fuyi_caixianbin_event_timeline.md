@@ -62,7 +62,7 @@ categories = ["发声"]
 
 .slide-full-image {
     padding: 0;
-    min-height: auto;
+    min-height: 200px;
     overflow: hidden;
     background-color: #fff;
 }
