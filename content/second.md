@@ -33,8 +33,8 @@ categories = ["发声"]
 汕头大学医学院第一附属医院蔡*彬从2021 年前后开始进行粪菌移植，从医院官方公众号
 推送信息可知。
 
-![alt text](/second/image1.png)
-![alt text](/second/image2.png)
+![公众号推文截图-粪菌移植宣传](/second/image1.png)
+![公众号推文截图-粪菌移植宣传2](/second/image2.png)
 
 
 整个过程非常严格保密，跟患者单独空间只有一对一沟通，不让科室其他人员知情，这么严
@@ -46,16 +46,16 @@ categories = ["发声"]
 
 开始由其私下购买菌液（下图泡沫箱内），具体来源？未见明确的菌液合格证或质控报告…
 
-![alt text](/second/image3.png)
+![菌液泡沫箱照片](/second/image3.png)
 <center><span style="background-color: rgb(255, 167, 215);">菌群处置极为随意</span></center>
 
 
 后自己在公众号募集供体，近期<span style="background-color: rgb(255, 167, 215);">由医院官方发出内部捐赠倡议书</span>。
 
-![alt text](/second/image4.png)
+![医院内部捐赠倡议书截图](/second/image4.png)
 <span style="background-color: rgb(255, 214, 211); font-weight: bold;">而我国相关专家共识建议如下：</span>
-![alt text](/second/image5.png)
-![alt text](/second/image6.png)
+![专家共识建议截图1](/second/image5.png)
+![专家共识建议截图2](/second/image6.png)
 
 <span style="background-color: rgb(255, 212, 211); font-weight: bold; text-decoration: underline;">肠菌制备及移植地点均位于汕大医学院第一附属医院二号楼西侧四层。</span>
 
@@ -73,13 +73,13 @@ categories = ["发声"]
 
 因此，<span style="background-color: rgb(255, 164, 216); font-weight: bold; ">在科室内随意划出一个小区域，就能制备菌液，这里面的水，真不是一般的深！</span>
 
-![alt text](/second/image7.png)
+![菌液制备场所照片](/second/image7.png)
 
 移植给患者的菌液<span style="background-color: rgb(255, 212, 211);font-weight=bold;">未按规定进行相关检测</span>（从其公众号中就可以看出内容极为简单），相
 比国内专家共识推荐的，<span style="background-color: rgb(255, 212, 211);font-weight=bold;">缺少很多极为关键的检测项目(包括16S rRNA 及代谢组学分
 析)；同时，制备的菌液也未进行质控</span>。患者<span style="background-color: rgb(255, 212, 211);font-weight=bold;">治疗前后无菌群前后对比。</span>
 
-![alt text](/second/image8.png)
+![菌液检测项目截图](/second/image8.png)
 
 
 ### <span style="background-color: rgb(255, 164, 216); font-weight: bold; text-decoration: underline;">二、学术诚信堪忧，频频造假</span>
@@ -93,11 +93,11 @@ categories = ["发声"]
 </div>
 
 #### <span style="background-color: rgb(255, 212, 211);font-weight=bold;">②科研之数据拼接，不当署名，冒名顶替</span>
-![alt text](/second/image11.png)
-![alt text](/second/image12.png)
-![alt text](/second/image13.png)
-![alt text](/second/image14.png)
-![alt text](/second/image15.png)
+![论文Figure 3(c) Western Blot条带对比](/second/image11.png)
+![论文数据拼接疑点截图1](/second/image12.png)
+![论文数据拼接疑点截图2](/second/image13.png)
+![论文数据拼接疑点截图3](/second/image14.png)
+![论文数据拼接疑点截图4](/second/image15.png)
 <center><span style="color: red;">造假疑点阐述</span></center>
 
 
@@ -128,13 +128,13 @@ categories = ["发声"]
 
 <span style="background-color: rgb(255, 212, 211);">到目前为止，没有任何调查报告;而是让涉事研究生顺利毕业，科研处通过邮件暗示我有心理问题，来终止此次事件。</span>
 
-![alt text](/second/image16.png)
+![学院科研处邮件截图](/second/image16.png)
 <div style="display: flex; justify-content: space-between;">
     <img src="/second/image17.png" alt="邮政快件信息截图1" style="width: 49%; margin: 0;">
     <img src="/second/image18.png" alt="邮政快件信息截图2" style="width: 49%; margin: 0;">
 </div>
 
-![alt text](/second/image19.png)
+![汕头大学纪委签收记录截图](/second/image19.png)
 
 
 <span style="color: red;font-weight: bold;">2025 年6 月9 日</span>汕头大学纪委已签收邮政寄送的举报材料，<span style="color: red;font-weight: bold;">迄今无受理通知</span>。
@@ -158,14 +158,14 @@ categories = ["发声"]
 （医学院科研处张处长长期参与课题组的毕业答辩，附一院在我举报该事件后，支持“菌群制备室”的装修，<span style="background-color: rgb(255, 164, 216); font-weight: bold;">内部调查的意义是什么？</span>）
 
 
-![alt text](/second/image20.png)
+![男领导到访女生宿舍事件截图](/second/image20.png)
 男领导/教师在未提前沟通，未获本人同意情况下，到访女生宿舍要求面谈。（注：本人通
 讯渠道全程畅通）。校方某领导邮件指责我“损害学校声誉”，却对“学术不端线索、行政不
 作为、教师行为失范”<span style="background-color: rgb(255, 164, 216); font-weight: bold;">选择性失明</span>。
 
 
 #### 2、<span style="background-color: rgb(255, 215, 158); font-weight: bold;">与医院领导共同的文章，是否存在利益相关？不得而知！</span>
-![alt text](/second/image21.png)
+![与医院领导共同发表文章截图](/second/image21.png)
 
 
 #### 3、课题组内的课题方向
@@ -174,7 +174,7 @@ categories = ["发声"]
 人使用此方向。然而2025 届毕业生却在不足一年内完成：复制相同的小鼠模型——采用高
 度重合的研究思路——产出完整毕业课题。（注：重新建模需4-6 个月，文献研究+课题设
 计需3-5 个月，实验周期通常超过半年）。
-![alt text](/second/image22.png)
+![课题进展报告PPT截图](/second/image22.png)
 
 导师是否泄露我的课题核心资料？
 
@@ -190,11 +190,11 @@ categories = ["发声"]
 
 ③马*铤答辩主要内容变为：探讨<span style="background-color: rgb(255, 215, 158); font-weight: bold;">塞来昔布</span>改善NAFLD 的机制（2025.5.20）
 
-![alt text](/second/image23.png)
+![开题报告对比截图-咖啡因](/second/image23.png)
 
-![alt text](/second/image24.png)
+![开题报告对比截图-塞来昔布](/second/image24.png)
 
-![alt text](/second/image25.png)
+![开题报告对比截图-塞来昔布2](/second/image25.png)
 
 4、当前所有的小鼠动物试验，无论是咖啡因或者塞来昔布等药物研究，均<span style="background-color: rgb(255, 164, 217); font-weight: bold; text-decoration: underline;">未做小鼠安全性研究。</span>
 
@@ -203,13 +203,13 @@ categories = ["发声"]
 
 <span style="background-color: rgb(255, 215, 158); font-weight: bold;">②小鼠表型及实验结果评估不完整(脂肪肝的评估，仅仅使用肝炎评估，未进行肝纤维化评估)。</span>
 
-![alt text](/second/image26.png)
+![实验设计与对照组省略问题截图](/second/image26.png)
 
 5、本人因<span style="background-color: rgb(255, 215, 158); font-weight: bold;">真实实验结果</span>（该模型的粪菌移植未能改善脂肪肝）不满足导师期待，<span style="color:red;">无法促成导师的利益链，因此开始被霸凌、孤立。多方容忍，奈何步步紧逼。</span>
 
-![alt text](/second/image27.png)
+![实验结果不满足导师期待相关截图](/second/image27.png)
 
-![alt text](/second/image28.png)
+![实验相关问题截图](/second/image28.png)
 
 
 

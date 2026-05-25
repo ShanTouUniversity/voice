@@ -1,5 +1,6 @@
 +++
 title = "关于"
+description = "关于 ST.U Voice 学生之音——为学生发声，保留学生的发声场所。"
 updated = 2025-01-01T00:00:00+00:00
 path = "about"
 [extra]
